@@ -30,3 +30,25 @@
 	width: 70px;
 	height: 100%;
 }
+
+.rightNav .navBar h3{
+    /* FF3.5+ */
+    -moz-transform: rotate(90deg);
+    /* Opera 10.5 */
+    -o-transform: rotate(90deg);
+    /* Saf3.1+, Chrome */
+    -webkit-transform: rotate(90deg);
+    /*standard*/
+    transform: rotate(90deg);
+}
+
+.leftNav .navBar h3{
+    /* FF3.5+ */
+    -moz-transform: rotate(-90deg);
+    /* Opera 10.5 */
+    -o-transform: rotate(-90deg);
+    /* Saf3.1+, Chrome */
+    -webkit-transform: rotate(-90deg);
+    /*standard*/
+    transform: rotate(-90deg);
+}
