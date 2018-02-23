@@ -1,0 +1,28 @@
+.navBar{
+	background: #fff;
+    color: #000;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    position: fixed;
+}
+
+.topNav .navBar{
+    top: 0;
+}
+
+.rightNav .navBar{
+	right: 0;
+	width: 70px;
+	height: 100%;
+}
+
+.bottomNav .navBar{
+	bottom: 0;
+}
+.leftNav .navBar{
+	left: 0;
+	width: 70px;
+	height: 100%;
+}
