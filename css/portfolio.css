@@ -6,6 +6,10 @@
     text-align: center;
     line-height: 70px;
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 .topNav .navBar{
